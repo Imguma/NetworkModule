@@ -1,7 +1,7 @@
-# ios_module
+# Network
 
 ***
-### Network
+### Library
 - Alamofire
 - AlamofireNetworkActivityLogger
 - Combine<br><br>
