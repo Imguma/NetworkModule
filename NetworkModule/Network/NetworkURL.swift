@@ -2,8 +2,6 @@
 //  NetworkURL.swift
 //  NetworkModule
 //
-//  Created by 애니모비 on 2023/07/13.
-//
 
 import Foundation
 
