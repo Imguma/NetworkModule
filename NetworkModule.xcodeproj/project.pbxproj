@@ -7,11 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27754B4A2A5F8D2700DFC4DD /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754B3E2A5F8D2700DFC4DD /* Resource.swift */; };
+		27754B4B2A5F8D2700DFC4DD /* ResponseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754B3F2A5F8D2700DFC4DD /* ResponseManager.swift */; };
+		27754B4C2A5F8D2700DFC4DD /* NetworkURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754B402A5F8D2700DFC4DD /* NetworkURL.swift */; };
+		27754B4D2A5F8D2700DFC4DD /* ConstantsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754B412A5F8D2700DFC4DD /* ConstantsResponse.swift */; };
+		27754B4E2A5F8D2700DFC4DD /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754B422A5F8D2700DFC4DD /* CustomError.swift */; };
+		27754B4F2A5F8D2700DFC4DD /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754B432A5F8D2700DFC4DD /* SessionManager.swift */; };
+		27754B502A5F8D2700DFC4DD /* AFNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754B442A5F8D2700DFC4DD /* AFNetwork.swift */; };
+		27754B512A5F8D2700DFC4DD /* NetworkModule.docc in Sources */ = {isa = PBXBuildFile; fileRef = 27754B452A5F8D2700DFC4DD /* NetworkModule.docc */; };
+		27754B522A5F8D2700DFC4DD /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754B472A5F8D2700DFC4DD /* ResultViewModel.swift */; };
+		27754B532A5F8D2700DFC4DD /* ProgressObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754B492A5F8D2700DFC4DD /* ProgressObserver.swift */; };
 		27E39A132A5F81D1008883D2 /* NetworkModule.docc in Sources */ = {isa = PBXBuildFile; fileRef = 27E39A122A5F81D1008883D2 /* NetworkModule.docc */; };
 		27E39A142A5F81D1008883D2 /* NetworkModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E39A112A5F81D1008883D2 /* NetworkModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27754B3E2A5F8D2700DFC4DD /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		27754B3F2A5F8D2700DFC4DD /* ResponseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseManager.swift; sourceTree = "<group>"; };
+		27754B402A5F8D2700DFC4DD /* NetworkURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkURL.swift; sourceTree = "<group>"; };
+		27754B412A5F8D2700DFC4DD /* ConstantsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsResponse.swift; sourceTree = "<group>"; };
+		27754B422A5F8D2700DFC4DD /* CustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		27754B432A5F8D2700DFC4DD /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		27754B442A5F8D2700DFC4DD /* AFNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFNetwork.swift; sourceTree = "<group>"; };
+		27754B452A5F8D2700DFC4DD /* NetworkModule.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NetworkModule.docc; sourceTree = "<group>"; };
+		27754B472A5F8D2700DFC4DD /* ResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		27754B492A5F8D2700DFC4DD /* ProgressObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressObserver.swift; sourceTree = "<group>"; };
 		27E39A0E2A5F81D1008883D2 /* NetworkModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E39A112A5F81D1008883D2 /* NetworkModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkModule.h; sourceTree = "<group>"; };
 		27E39A122A5F81D1008883D2 /* NetworkModule.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NetworkModule.docc; sourceTree = "<group>"; };
@@ -28,6 +48,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27754B3D2A5F8D2700DFC4DD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				27754B3E2A5F8D2700DFC4DD /* Resource.swift */,
+				27754B3F2A5F8D2700DFC4DD /* ResponseManager.swift */,
+				27754B402A5F8D2700DFC4DD /* NetworkURL.swift */,
+				27754B412A5F8D2700DFC4DD /* ConstantsResponse.swift */,
+				27754B422A5F8D2700DFC4DD /* CustomError.swift */,
+				27754B432A5F8D2700DFC4DD /* SessionManager.swift */,
+				27754B442A5F8D2700DFC4DD /* AFNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		27754B462A5F8D2700DFC4DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				27754B472A5F8D2700DFC4DD /* ResultViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		27754B482A5F8D2700DFC4DD /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				27754B492A5F8D2700DFC4DD /* ProgressObserver.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
 		27E39A042A5F81D1008883D2 = {
 			isa = PBXGroup;
 			children = (
@@ -47,6 +97,10 @@
 		27E39A102A5F81D1008883D2 /* NetworkModule */ = {
 			isa = PBXGroup;
 			children = (
+				27754B3D2A5F8D2700DFC4DD /* Network */,
+				27754B452A5F8D2700DFC4DD /* NetworkModule.docc */,
+				27754B482A5F8D2700DFC4DD /* Observer */,
+				27754B462A5F8D2700DFC4DD /* ViewModel */,
 				27E39A112A5F81D1008883D2 /* NetworkModule.h */,
 				27E39A122A5F81D1008883D2 /* NetworkModule.docc */,
 			);
@@ -132,7 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27754B4C2A5F8D2700DFC4DD /* NetworkURL.swift in Sources */,
+				27754B522A5F8D2700DFC4DD /* ResultViewModel.swift in Sources */,
 				27E39A132A5F81D1008883D2 /* NetworkModule.docc in Sources */,
+				27754B4B2A5F8D2700DFC4DD /* ResponseManager.swift in Sources */,
+				27754B502A5F8D2700DFC4DD /* AFNetwork.swift in Sources */,
+				27754B4A2A5F8D2700DFC4DD /* Resource.swift in Sources */,
+				27754B4D2A5F8D2700DFC4DD /* ConstantsResponse.swift in Sources */,
+				27754B4E2A5F8D2700DFC4DD /* CustomError.swift in Sources */,
+				27754B4F2A5F8D2700DFC4DD /* SessionManager.swift in Sources */,
+				27754B512A5F8D2700DFC4DD /* NetworkModule.docc in Sources */,
+				27754B532A5F8D2700DFC4DD /* ProgressObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
