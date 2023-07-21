@@ -98,9 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				27754B3D2A5F8D2700DFC4DD /* Network */,
-				27754B452A5F8D2700DFC4DD /* NetworkModule.docc */,
 				27754B482A5F8D2700DFC4DD /* Observer */,
 				27754B462A5F8D2700DFC4DD /* ViewModel */,
+				27754B452A5F8D2700DFC4DD /* NetworkModule.docc */,
 				27E39A112A5F81D1008883D2 /* NetworkModule.h */,
 				27E39A122A5F81D1008883D2 /* NetworkModule.docc */,
 			);
