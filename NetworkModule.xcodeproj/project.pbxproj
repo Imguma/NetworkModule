@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270DD4562A6A4B4700640E91 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 270DD4552A6A4B4700640E91 /* Alamofire */; };
+		270DD4592A6A4B6500640E91 /* AlamofireNetworkActivityLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 270DD4582A6A4B6500640E91 /* AlamofireNetworkActivityLogger */; };
 		27754B4A2A5F8D2700DFC4DD /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754B3E2A5F8D2700DFC4DD /* Resource.swift */; };
 		27754B4B2A5F8D2700DFC4DD /* ResponseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754B3F2A5F8D2700DFC4DD /* ResponseManager.swift */; };
 		27754B4C2A5F8D2700DFC4DD /* NetworkURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754B402A5F8D2700DFC4DD /* NetworkURL.swift */; };
@@ -42,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270DD4562A6A4B4700640E91 /* Alamofire in Frameworks */,
+				270DD4592A6A4B6500640E91 /* AlamofireNetworkActivityLogger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +139,10 @@
 			dependencies = (
 			);
 			name = NetworkModule;
+			packageProductDependencies = (
+				270DD4552A6A4B4700640E91 /* Alamofire */,
+				270DD4582A6A4B6500640E91 /* AlamofireNetworkActivityLogger */,
+			);
 			productName = NetworkModule;
 			productReference = 27E39A0E2A5F81D1008883D2 /* NetworkModule.framework */;
 			productType = "com.apple.product-type.framework";
@@ -162,6 +170,10 @@
 				Base,
 			);
 			mainGroup = 27E39A042A5F81D1008883D2;
+			packageReferences = (
+				270DD4542A6A4B4700640E91 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				270DD4572A6A4B6500640E91 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */,
+			);
 			productRefGroup = 27E39A0F2A5F81D1008883D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -401,6 +413,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		270DD4542A6A4B4700640E91 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		270DD4572A6A4B6500640E91 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/konkab/AlamofireNetworkActivityLogger.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		270DD4552A6A4B4700640E91 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 270DD4542A6A4B4700640E91 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		270DD4582A6A4B6500640E91 /* AlamofireNetworkActivityLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 270DD4572A6A4B6500640E91 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */;
+			productName = AlamofireNetworkActivityLogger;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 27E39A052A5F81D1008883D2 /* Project object */;
 }
