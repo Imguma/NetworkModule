@@ -11,7 +11,7 @@ public enum APIError: Error {
     case noneData
 }
 
-// 
+// statusCode
 extension APIError: LocalizedError {
     public var errorDescription: String? {
         switch self {
