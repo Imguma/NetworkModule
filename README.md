@@ -1,7 +1,7 @@
 # Network Module
 
 ### 📝 Description
--	Alamofire를 활용한 네트워킹 모듈
+-	Alamofire, Swift Concurrency(async/await)를 활용한 네트워킹 모듈
 ***
 
 ### 🔎 Key Features
